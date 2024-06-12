@@ -16,10 +16,10 @@ The Damped Traub's Method is a widely-used numerical algorithm for finding roots
 
 ## File Structure
 - **utils.py**: Contains the definitions of the necessary functions.
-- **colored-newton.ipynb**: Jupyter notebook for plotting basins of attraction with different colors.
-- **damped-traub.ipynb**: Jupyter notebook for plotting basins of attraction with a unique palette of colors.
-- **parameter-plane.ipynb**: Jupyter notebook for visualizing the parameter plane of a Blaschke product.
-- **numerical_evidences/**: Folder containing Python implementations to demonstrate numerical evidences, particularly focusing on proving that Damped Traub's Method basins of attractions are unbounded and simple connected sets.
+- **parameter-plane.ipynb**: Jupyter notebook for the parameter plane of the damped Traub's method applied to the polynomial $p(z)=(z-\alpha_1)(z-\alpha_2)$. 
+- **basins-damped-Traub**: Jupyter notebook for plotting basins of attraction of damped Traub's method. Mostly, Newton's method ($\delta=0$) or Traub's method ($\delta=1). However, any damped factor could be used.
+- **zoom-poles/*: Folder containing Python files where we locate the free fixed points and free new fixed points of the method for some specific cubic polynomials.
+- **mathematica/**: Folder containing mathematica files used for computations regarding damped Traub's method applied on cubic polynomials and to the family $p_d(z)=z(z^d-1)$.
   
 ## Usage
 To utilize this repository, simply clone it to your local machine and execute the provided Jupyter notebooks. Make sure to have the necessary dependencies installed.
