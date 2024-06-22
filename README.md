@@ -21,6 +21,9 @@ The Damped Traub's Method is a widely-used numerical algorithm for finding roots
 - **zoom-poles/**: Folder containing Python files where we locate the free fixed points and free new fixed points of the method for some specific cubic polynomials.
 - **mathematica/**: Folder containing mathematica files used for computations regarding damped Traub's method applied on cubic polynomials and to the family $p_d(z)=z(z^d-1)$.
   
+## PDF document
+This work is part of my final master's thesis for the Advanced Mathematics program at the University of Barcelona. The attached PDF document details the research conducted on the root-finding algorithm. Our goal is to prove the simple connectivity and unboundedness of the method, using the well-known results of Newton's method.
+  
 ## Usage
 To utilize this repository, simply clone it to your local machine and execute the provided Jupyter notebooks. Make sure to have the necessary dependencies installed.
 
